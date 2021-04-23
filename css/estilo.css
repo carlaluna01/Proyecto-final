@@ -21,13 +21,11 @@ ul {
     list-style: none;
 }
 
-.navbar img {
+.header__navbar--img {
     width: 50px;
     height: 50px;
 }
-/* .navbar img:hover {
-    transform: scale(1, 1);
-} */
+
 
 .contenedor-principal {
     padding-top: 7rem;
@@ -68,7 +66,7 @@ ul {
     justify-content: center; 
     align-items: center; 
 }
-.header_index {
+.header {
     height: 100vh;
     color: white;
     font-family: var(--fuenteContenido);
@@ -78,7 +76,7 @@ ul {
     align-items: center; 
 }
 
-.navbar {
+.header__navbar {
     font-family: var(--fuenteTitulos);
     background-color: #456079;
     width: 100%;
@@ -90,26 +88,25 @@ ul {
     justify-content: space-between;
     align-items: center;
 }
-.navbar__list {
+.header__navbar-list {
     display: flex;
     justify-content: space-between;
     width: 45%; 
 }
-.navbar__list .navbar__link {
+.header__navbar-list .header__navbar-link {
     text-decoration: none;
     color: white;
 }
-.navbar__link {
+.header__navbar-link {
     transition: 1s;
 }
-.navbar__link:hover {
+.header__navbar-link:hover {
     color: #e2a483;
 }
 
-.navbar__texto {
+.header__navbar-texto {
     font-size: 3rem;
 }
-
 
 /*Sobre mí*/
 
@@ -335,11 +332,11 @@ input {
     align-items: center; 
 }
 
-.footer__imagen {
+.lista-redes__imagen {
     height: 30px;
     width: 30px;
     margin: 1rem 2rem 0rem 2rem;
 }
-.lista_redes {
+.lista-redes {
     display: flex;
-}
+} 
